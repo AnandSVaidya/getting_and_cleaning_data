@@ -12,8 +12,10 @@ Detailed information on raw data is present in features_info.txt in "UCI HAR Dat
 run_analysis.R creates tidydata.csv file.
 
 ### Data fields
-Mean and Standard deviation fields from raw data are considered for tidy data activity. 
-tidydata.csv file has average of mean and standard deviation for all measurements in test and train dataset in raw data
+Mean and Standard deviation fields from raw data are considered for tidy data activity.
+ 
+tidydata.csv file has average of mean and standard deviation for all measurements in test and train dataset in raw data.
+
 Following data fields are present in tidydata.csv
  
 * Subject
