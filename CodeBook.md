@@ -9,14 +9,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Detailed information on raw data is present in features_info.txt in "UCI HAR Dataset" folder in dataset zip file.
 
 ## Tidy Data
-run_analysis.R creates tidydata.csv file.
+run_analysis.R creates tidydata.txt file.
 
 ### Data fields
 Mean and Standard deviation fields from raw data are considered for tidy data activity.
  
-tidydata.csv file has average of mean and standard deviation for all measurements in test and train dataset in raw data.
+tidydata.txt file has average of mean and standard deviation for all measurements in test and train dataset in raw data.
 
-Following data fields are present in tidydata.csv
+Following data fields are present in tidydata.txt -
  
 * Subject
 * Activity
