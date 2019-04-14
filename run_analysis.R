@@ -75,9 +75,9 @@ tidydata <- tidydata[,ActivityName:=activityName(Activity,activityLabels)]
 # Re-order columns
 setcolorder(tidydata, c("Subject","Activity","ActivityName",colnames(dt)[!(colnames(dt) %in% c("Subject","Activity","ActivityName"))]))
 
-# Write data in CSV format
-if(file.exists("tidydata.csv")) {
-  file.remove("tidydata.csv")
+# Write data in txt format
+if(file.exists("tidydata.txt")) {
+  file.remove("tidydata.txt")
 }
 
-fwrite(tidydata, "tidydata.csv")
+fwrite(tidydata, "tidydata.txt", sep = " ")
